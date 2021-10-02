@@ -1,0 +1,228 @@
+Variable Name,Variable Label,Variable Definition
+ACQ_CERT,Acquiring FDIC Certificate #,Acquiring Institution's unique number assigned by the FDIC used to identify institutions and for the issuance of insurance certificates.
+ACQ_CHANGECODE,Acquiring Activity Event Code,Acquiring Institution Activity Event Code
+ACQ_CHARTAGENT,Acquiring Chartering Agency,"Acquiring Institution Chartering Agency - State and Federal,  Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+ACQ_CHARTER,Acquiring OCC Charter Number,Acquiring Institution's unique number assigned by the Office of the Comptroller of the Currency (OCC) used to identify institutions it has chartered and regulates (i.e. national  banks).
+ACQ_CLASS,Acquiring Class Designation,"Acquiring Institution's class designation code indicating the major groupings of institutions. N = FDIC Insured National Commercial Bank, Federal Reserve Member; SM = FDIC Insured State Commercial Bank, Federal Reserve Member; NM = FDIC Insured State Commercial Bank, or a Mutual Commercial Bank; SI = FDIC Insured Stock and Mutual Savings Bank; MI = Mutually Insured; SB = FDIC Insured Savings Bank; SL = FDIC Insured Savings and Loan Association; OI = Other FDIC Insured Institution (International Banking Act); CU = Credit Union; NC = Non-insured Institution; NS = Non-insured Savings Association"
+ACQ_CLCODE,Acquiring Numeric Class Code,Acquiring Institution's numeric code which identifies the major and minor categories of an institution.
+ACQ_CNTYNAME,Acquiring County Name ,County where the acquiring institution is physically located (abbreviated if the county name exceeds 16 characters).
+ACQ_CNTYNUM,Acquiring County Number,The federal information processing standards (FIPS) numeric code of the acquiring institution.
+ACQ_FDICREGION,Acquiring Supervisory Region Number,A two-digit number indicating the FDIC Supervisory Division or Region of the acquiring institution. 02 = New York; 05 = Atlanta; 09 = Chicago; 11 = Kansas City; 13 = Dallas; 14 = San Francisco; 16 = Office of Complex Financial Institutions (CFI)
+ACQ_FDICREGION_DESC,Acquiring Supervisory Region Description,The description of the FDIC supervisory region of the acquiring institution.
+ACQ_INSAGENT1,Acquiring Insurance Fund Membership,"The insurance fund membership of the acquiring institution; Deposit Insurance Fund (DIF), Bank Insurance Fund (BIF), Savings Association Insurance Fund (SAIF)"
+ACQ_INSAGENT2,Acquiring Secondary Insurance Fund,"The secondary insurance fund of the acquiring institution. As a result of the establishment of a single Deposit Insurance Fund (DIF) effective April 1, 2006, the secondary insurance fund is no longer applicable. Prior to April 1, 2006 secondary funds included both Bank Insurance Fund (BIF) and Savings Association Insurance Fund (SAIF)"
+ACQ_INSTNAME,Acquiring Institution Name,Name of the Acquiring Institution
+ACQ_MADDR,Acquiring Mailing Street Address,Street address of the acquiring institution's or one of its branches' mailing address.
+ACQ_MCITY,Acquiring Mailing City,City of the acquiring institution's or one of its branches' mailing address. 
+ACQ_MSTALP,Acquiring Mailing State Abbreviation,State abbreviation of the acquiring institution's or one of its branches' mailing address.
+ACQ_MSTATE,Acquiring Mailing State,State of the acquiring institution's or one of its branches' mailing address.
+ACQ_MZIP5,Acquiring Zip Code,"The first three, four, or five digits of the full postal zip code representing physical location of the institution or its branch office."
+ACQ_MZIP5_RAW,Acquiring 5-digit Zip Code,The 5-digit postal code of the acquiring institution's mailing address.
+ACQ_MZIPREST,Acquiring Zip Code Extension,The 4-digit zip code extension of the acquiring institution's mailing address.
+ACQ_ORG_EFF_DTE,Acquiring Instituion's Effective Date,Acquiring Institution's Effective Date
+ACQ_PADDR,Acquiring Physical Street Address,Street address at which the acquiring institution or one of its branches is physically located.
+ACQ_PCITY,Acquiring Physical City,City in which an acquiring institution's main office or one of its branches is physically located. 
+ACQ_PSTALP,Acquiring Physical State Alpha Code,"State in which the  acquiring institution's main office or one if its branches are physically located. The FDIC Act defines state as any State of the United States, the District of Columbia, and any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Island, and the Northern Mariana Islands."
+ACQ_PZIP5,Acquiring Zip Code,"The first three, four, or five digits of the full postal zip code representing physical location of the acquiring institution or one of its branch offices."
+ACQ_PZIP5_RAW,Acquiring Zip Code,"The first three, four, or five digits of the full postal zip code representing physical location of the institution or its branch office."
+ACQ_PZIPREST,Acquiring Zip Code Extension,The 4-digit zip code extension of the acquiring institution's physical location.
+ACQ_REGAGENT,Acquiring Chartering Agency,"Acquiring Institution Chartering Agency - State and Federal,  Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+ACQ_TRUST,Acquiring Trust Power,Trust power status of the acquiring institution.
+ACQ_UNINUM,Acquiring Unique FDIC Number,"The acquiring institution's unique FDIC identifier number for holding companies, banks, branches and nondeposit subsidiaries. This value maps to the main office for  the acquiring Institution in a merger, acquisition, etc."
+ACT_EVT_DESC,Activity Event Description,The description of a code that identifies an event that causes changes to entity activities or ownership over time.
+ACT_EVT_NUM,Activity Event Number,A number indicating a change/event to an institution's activities or ownership over time.
+ACT_EVT1_NUM,Activity Event Number,A number corresponding to an event that causes changes to entity activities or ownership over time.
+ACT_EVT2_NUM,Activity Event Number,A number corresponding to an event that causes changes to entity activities or ownership over time.
+ACT_EVT3_NUM,Activity Event Number,A number corresponding to an event that causes changes to entity activities or ownership over time.
+ACT_EVT4_NUM,Activity Event Number,A number corresponding to an event that causes changes to entity activities or ownership over time.
+ACT_EVT5_NUM,Activity Event Number,A number corresponding to an event that causes changes to entity activities or ownership over time.
+ACTIVE,Institution Status,A number indicating the status of an institution. 1='Institutions that are currently open and insured by the FDIC'; 0='Institution closed or not insured by FDIC'
+ADDRESS,Street Address,The street address in which an institution or branch office is physically located.
+CERT,FDIC Certificate #,A unique number assigned by the FDIC used to identify institutions and for the issuance of insurance certificates.
+CFPBEFFDTE,CFPB Effective Date,Date the institution began secondary supervision by CFPB
+CFPBENDDTE,CFPB End Date,Date the institution ended supervision by CFPB
+CHANGECODE,Activity Event Code,Activity Event Code
+CHANGECODE_DESC,Activity Event Code Description,Activity Event Code Description
+CHARTAGENT,Chartering Agency,"The name of the chartering agency of the institution.
+
+OCC = Comptroller Of The Currency
+OTS  = Office Of Thrift Supervision
+State = State Agency
+Sover = Foreign Country"
+CHARTER,OCC Charter Number,The charter number identifying a financial institution supervised by the Office of Comptroller of Currency.
+CITY,City,The city in which an institution or branch office is physically located.
+CLASS,Bank Charter Class,"A code indicating the major groupings of institutions. N = FDIC Insured National Commercial Bank, Federal Reserve Member; SM = FDIC Insured State Commercial Bank, Federal Reserve Member; NM = FDIC Insured State Commercial Bank, or a Mutual Commercial Bank; SI = FDIC Insured Stock and Mutual Savings Bank; MI = Mutually Insured; SB = FDIC Insured Savings Bank; SL = FDIC Insured Savings and Loan Association; OI = Other FDIC Insured Institution (International Banking Act); CU = Credit Union; NC = Non-insured Institution; NS = Non-insured Savings Association"
+CLCODE,Numeric Code,"A two-digit identifying category of an institution. 03 = National bank, Federal Reserve System (FRS) member; 13 = State commercial bank, FRS member; 15 = State industrial bank, FRS member; 21 = State commercial bank, not FRS member; 23 = State industrial bank, not FRS member; 25 - State nonmember mutual bank; 33 = Federal chartered savings and co-operative bank - stock; 34 = Federal chartered savings and co-operative bank - mutual; 43 = Federal chartered stock savings bank (historical); 44 = Federal chartered mutual savings bank (historical); 35 = State chartered thrift - stock; 36 = State chartered thrift - mutual; 37 = Federal chartered thrift - stock; 38 = Federal chartered thrift - mutual; 41 = State chartered stock savings and co-operative bank; 42 = State chartered mutual savings and co-operative bank; 52 = Insured domestic offices of foreign banks (International Banking Act(IBA)); 50 = Nondeposit trust company, OCC chartered; 51 = Commercial bank; 52 = Noninsured domestic offices of foreign bank (IBA); 53 = Industrial bank; 54 = Nondeposit trust company, state chartered, not FRS member; 57 = New York investment company; 58 = Nondeposit trust company, state chartered, FRS member; 59 = Nondeposit trust company; 61 = Noninsured private bank; 62 = Noninsured loan workout bank, OCC chartered; 63 = Noninsured loan workout bank, state chartered, FRS member; 64 = Noninsured loan workout bank, state chartered, not FRS member; 81 = Noninsured stock savings and co-operative bank; 82 = Noninsured mutual savings and co-operative bank; 85 = Noninsured stock savings and loan association; 86 = Noninsured mutual savings and loan association; 89 = Noninsured insurance company."
+CMSA,Consolidated Metropolitan Statistical Area,"The Federal Information Processing Standards (FIPS) Consolidated Metropolitan Statistical Area (CMSA) code is a number representing  the institution location. CMSA consists of two or more contiguous  Metropolitan Statistical Areas (MSA) with a combined population of  over 1 Million. Note: If an institution is not located in a CMSA,  the value of the field will be zeroes."
+CMSA_NO,Consolidated Metropolitan Statistical Division Number,The numeric code given by the US Census Bureau office of Management and Budget that represents the CMSA prior to the year 2000  standards. 1=yes
+CNTYNAME,County,The county name in which an institution or branch office is physically located.
+CNTYNUM,County Number,The Federal Information Processing System (FIPS) number corresponding to the county in which a physical address is located.
+CONSERVE,Conservatorship,A flag (1=yes;0=no) that indicates if an institution is being operated in government conservatorship.
+DOCKET,OTS Docket Number,An identification number assigned to institutions chartered by the Office of Thrift Supervision (OTS) or members of the Federal Housing  Finance Board (FHFB) and formerly by the Federal Home Loan Bank (FHLB) Board. The value is '00000' for institutions not members of the  FHFB.
+EFFDATE,Last Structure Change Effective Date,A date indicating when an institution's change/event is effective.
+ENDDATE,End Effective Date,End Effective Date
+ENDEFYMD,End Date,"The date that ends or closes out the last structural event relating  to an institution. For closed institutions, this date represents the  day that the institution became inactive."
+FDICREGION,Supervisory Region,A two-digit number indicating the FDIC Supervisory Division or Region. 02 = New York; 05 = Atlanta; 09 = Chicago; 11 = Kansas City; 13 = Dallas; 14 = San Francisco; 16 = Office of Complex Financial Institutions (CFI)
+FDICREGION_DESC,Supervisory Region Description,A description associated with the name of an FDIC supervisory region
+FI_EFFDATE,Last Structure Change Effective Date,A date indicating when an institution's change/event is effective.
+FI_UNINIM,FDIC's unique number,"FDIC's unique identifier number for holding companies, banks, branches and nondeposit subsidiaries. This value maps the branch back to the parent financial institution."
+FRM_CERT,Previous FDIC Certificate #,A unique NUMBER assigned by the FDIC used to identify institutions and for the issuance of insurance certificates.
+FRM_CHARTAGENT,Previous Chartering Agency,"Previous Institution Chartering Agency - State and Federal,  Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+FRM_CLASS,Previous Bank Charter Class,"A code indicating the major groupings of institutions. N = FDIC Insured National Commercial Bank, Federal Reserve Member; SM = FDIC Insured State Commercial Bank, Federal Reserve Member; NM = FDIC Insured State Commercial Bank, or a Mutual Commercial Bank; SI = FDIC Insured Stock and Mutual Savings Bank; MI = Mutually Insured; SB = FDIC Insured Savings Bank; SL = FDIC Insured Savings and Loan Association; OI = Other FDIC Insured Institution (International Banking Act); CU = Credit Union; NC = Non-insured Institution; NS = Non-insured Savings Association"
+FRM_CLCODE,Previous Numeric Code,Numeric code which identifies the major and minor categories of an institution.
+FRM_CNTYNAME,Previous County,County where the institution is physically located (abbreviated if the county name exceeds 16 characters).
+FRM_CNTYNUM,Previous County Number,The federal information processing standards (FIPS) numeric code.            
+FRM_INSTNAME,Previous Institution Name,The legal name of the institution.
+FRM_OFF_CHARTAGENT,Previous Office Chartering Agency,"Previous Office Chartering Agency - State and Federal,  Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+FRM_OFF_CLASS,Previous Office Class,"A code indicating the major groupings of institutions. N = FDIC Insured National Commercial Bank, Federal Reserve Member; SM = FDIC Insured State Commercial Bank, Federal Reserve Member; NM = FDIC Insured State Commercial Bank, or a Mutual Commercial Bank; SI = FDIC Insured Stock and Mutual Savings Bank; MI = Mutually Insured; SB = FDIC Insured Savings Bank; SL = FDIC Insured Savings and Loan Association; OI = Other FDIC Insured Institution (International Banking Act); CU = Credit Union; NC = Non-insured Institution; NS = Non-insured Savings Association"
+FRM_OFF_CLCODE,Previous Office Numeric Code,Numeric code which identifies the major and minor categories of an institution.
+FRM_OFF_CNTYNAME,Previous Office County,County where the branch was previously physically located (abbreviated if the county name exceeds 16 characters).
+FRM_OFF_CNTYNUM,Previous County Number,The federal information processing standards (FIPS) numeric code where the branch was previously physically located.
+FRM_OFF_NAME,Previous Office Name,Name of the branch.
+FRM_OFF_NUM,Previous Office Number,The branch's corresponding office number.
+FRM_OFF_PADDR,Previous Physical Street Address,Street address at which the institution or one of its branches was previously physically located.
+FRM_OFF_PCITY,Previous City,City in which an institution's main office or one of its branches was previously physically located. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+FRM_OFF_PSTALP,Previous State Alpha Code,"State in which an institution's main office or one of its branches were previously physically located. The FDIC Act defines state as any State of the United States, the District of Columbia, and any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Island, and the Northern Mariana Islands."
+FRM_OFF_PZIP5,Previous Zip Code,"The first three, four, or five digits of the full postal zip code representing the previous physical location of the institution or one of its branches."
+FRM_OFF_PZIP5_RAW,Previous 5-Digit Zip Code,The 5-digit postal code of a branch office's previous physical location.
+FRM_OFF_PZIPREST,Previous Zip Code Extension,The 4-digit zip code extension of an institution or one of its branches previous physical location.
+FRM_OFF_REGAGENT,Previous Regulator,"There are three federal regulators of banks and savings and loan institutions: Federal Deposit Insurance Corporation (FDIC) - primary federal regulator responsible for state-chartered banks not members of the Federal Reserve System and state chartered savings banks; Federal Reserve Board (FRB) - primary federal regulator responsible for state-chartered commercial bank members of the Federal Reserve System.; Office of the Comptroller of the Currency (OCC) - primary federal regulator responsible for nationally chartered commercial banks and federally chartered savings and loan associations. Before 7/21/11, Office of Thrift Supervision (OTS) - primary federal regulator responsible for federally chartered savings and loan associations, federal savings banks and state-chartered savings and loan associations. FDIC insured depository institutions are members of the Deposit Insurance Fund (DIF)."
+FRM_OFF_SERVTYPE,Previous Service Type,"Types of services offered by an office. Full service offices accept deposits, make loans, open/close accounts, have a loan officer on site, have normal hours, and a full time staff. Limited service offices offer some, but not all of these services. 11 = Full service brick and mortar office; 12 = Full service retail office; 13 = Full service cyber office; 21 = Limited service administrative office; 22 = Limited service military facility; 23 = Limited service drive through or detached facility; 24 = Limited service loan production office; 25 = Limited service consumer credit office; 26 = Limited service contractual office; 27 = Limited service messenger office; 28 = Limited service retail office; 29 = Limited service mobile office; 30 = Limited service trust office"
+FRM_OFF_SERVTYPE_DESC,Previous Service Type Description,Service Type Description
+FRM_OFF_STATE,Previous Office State,State in which an institution or one of its branches was previously physically located. 
+FRM_OFF_TRUST,Previous Trust Power,Previous trust power status of an institution or one of its branches.
+FRM_OFFNAME,Previous Branch Name,Previous name of a branch office.
+FRM_OFFNUM,Previous Branch Number,An institution branch office's previous number.
+FRM_PADDR,Previous Physical Street Address,Street address at which the institution or one of its branches was previously physically located.
+FRM_PCITY,Previous Physical City,City in which an institution's main office or one of its branches was previously physically located. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+FRM_PSTALP,Previous State Alpha Code,"State abbreviation in which an institution was previously physically located. The FDIC Act defines state as any State of the United States, the District of Columbia, and any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Island, and the Northern Mariana Islands."
+FRM_PZIP5,Previous Zip Code,"The first three, four, or five digits of the full postal zip code representing the previous physical location of the institution or its branch office."
+FRM_PZIP5_RAW,Previous 5-Digit Zip Code,The 5-digit postal code of an institution or one of its branches previous physical location.
+FRM_PZIPREST,Previous Zip Code Extension,The 4-digit zip code extension of an institution or one of its branches previous physical location.
+FRM_REGAGENT,Previous Chartering Agency,"Institution's Previous Chartering Agency - State and Federal,  Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+FRM_TRUST,Previous Trust Power,Previous trust power status of an institution or one of its branches.
+INSAGENT1,Insurance Fund Membership,"Deposit Insurance Fund (DIF), Bank Insurance Fund (BIF), Savings Association Insurance Fund (SAIF)"
+INSAGENT2,Secondary Insurance Fund,"As a result of the establishment of a single Deposit Insurance Fund (DIF) effective April 1, 2006, the Secondary Insurance fund is no longer applicable. Before April 1, 2006, Bank Insurance Fund (BIF) or Savings Association Insurance Fund (SAIF)"
+INSAGNT1,Primary Insurance Agency,Abbreviated primary insurance agency.
+INSAGNT2,Secondary Insurance Fund,"As a result of the establishment of a single Deposit Insurance Fund (DIF) effective April 1, 2006, the Secondary Insurance fund is no longer applicable. Before April 1,2006, Bank Insurance Fund (BIF) or Savings Association Insurance Fund (SAIF)"
+INSDATE,Date of Deposit Insurance,The date that an institution obtained federal deposit insurance.
+INST_FIN_ACTV_FLG,Institution Status,A flag to indicate whether a financial institution is active.
+INSTNAME,Institution Name,The legal name of the institution.
+LAW_SASSER_FLG,Law Sasser Flag,"A flag, yes=1 and no=0 associated with OTS supervised savings  associations that converted their charter to that of a commercial or  savings bank. Converted associations remain members of the SAIF,  but they become subject to supervision by one of the three federal  banking agencies. Not Applicable as of March 31, 2006."
+LOCN_PHY_ST_NUM,State Number,A unique number identifying the state in which a physical address is located.  This number is provided by the Federal Information Processing System (FIPS).
+MADDR,Mailing Street Address,The street address portion of the mailing address of an institution or one of its branches.
+MAILING_ADDRESS,Mailing Address,The mailing address of an institution or one of its branches.
+MAILING_CITY,Mailing City,The city portion of the mailing address of an institution or one of its branches. 
+MAILING_STALP,Mailing State Alpha Code,The 2-digit state code portion of the mailing address of an institution or one of its branches.
+MAILING_STATE,Mailing State,The state portion of the mailing address of an institution or one of its branches. 
+MAILING_ZIP,Mailing Zip Code,"The first three, four, or five digits of the full postal zip code portion of the mailing address of an institution or one of its branches."
+MAILING_ZIP5_RAW,Mailing 5-Digit Zip Code,The 5-digit postal code portion of the mailing address of an institution or one of its branches.
+MAILING_ZIPREST,Mailing Zip Code Extension,The 4-digit zip code extension portion of the mailing address of an institution or one of its branches.
+MCITY,Mailing City,The city portion of the mailing address of an institution or one of its branches. 
+MSA,Metropolitan Statistical Area (MSA),"The Metropolitan Statistical Areas based on Census Bureau data, as  defined by the US Office of Management (OMB) prior to the year 2000."
+MSA_NO,Metropolitan Statistical Area Number,"The Metropolitan Statistical Area Number (MSA_NO) in which the  institution is physically located. The Office of Management and  Budget defines MSAs in terms of entire counties surrounding central  cities, except in the six New England states where they are defined  in terms of cities and towns within counties. Before 200 standards"
+MSTALP,Mailing State Alpha Code,The 2-digit state code portion of the mailing address of an institution or one of its branches.
+MSTATE,Mailing State,The state portion of the mailing address of an institution or one of its branches. 
+MZIP5,Mailing Zip Code,"The first three, four, or five digits of the full postal zip code portion of the mailing address of an institution or one of its branches."
+MZIP5_RAW,Mailing 5-Digit Zip Code,The 5-digit postal code portion of the mailing address of an institution or one of its branches.
+MZIPREST,Mailing Zip Code Extension,The 4-digit zip code extension portion of the mailing address of an institution or one of its branches.
+NAME,Institution Name,The legal title or name of the institution.
+OCCDIST,Office of the Comptroller,"The Office of the Comptroller of the Currency (OCC) District in  which the institution is physically located. The six OCC Districts  and their respective states are: Northeast - Connecticut, Delaware,  District of Columbia, Maine, Maryland, Massachusetts, New Hampshire,  New Jersey, New York, Pennsylvania, Puerto Rico, Rhode Island,  Vermont, U.S. Virgin Islands Southeast - Alabama, Florida, Georgia,  Mississippi, North Carolina, South Carolina, Tennessee, Virginia,  West Virginia Central - Illinois, Indiana, Kentucky, Michigan,  Ohio, Wisconsin Midwest - Iowa, Kansas, Minnesota, Missouri,  Nebraska, North Dakota, South Dakota Southwest - Arkansas,  Louisiana, New Mexico, Oklahoma, Texas West - Alaska, American  Samoa, Arizona, California, Colorado, Guam, Hawaii, Idaho, Montana,  Nevada, Oregon, States of Micronesia, Utah, Washington, Wyoming"
+OFF_CNTYNAME,Office County Name,County where a branch office is physically located (abbreviated if the county name exceeds 16 characters).
+OFF_CNTYNUM,Office County Number,The�federal�information�processing�standards�(FIPS)�numeric�code of a branch office. �����������
+OFF_EFFDATE,Office Structure Change Effective Date,A date indicating when a branch office's change/event is effective.
+OFF_NAME,Office Name,The legal name of the office.
+OFF_NUM,Branch Number,The branch's corresponding office number.
+OFF_PADDR,Office Physical Street Address,Street address at which the institution or one of its branches is physically located.
+OFF_PCITY,Office Physical City,City in which an institution's headquarters or one of its branches is physically located. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+OFF_PSTALP,Office Physical State Alpha Code,2-digit state alpha code in which the institution or one of its branches is physically located.
+OFF_PSTATE,Office Physical State,State in which the institution or one of its branches is physically located.
+OFF_PZIP5,Office Physical Zip Code,"The first three, four, or five digits of the full postal zip code representing physical location of the institution or its branch office."
+OFF_PZIPREST,Office Physical Zip Code Extension,The 4-digit zip code extension of an institution or one of its branches.
+OFF_SERVTYPE,Office Service Type,"Types of services offered by an office. Full service offices accept deposits, make loans, open/close accounts, have a loan officer on site, have normal hours, and a full time staff. Limited service offices offer some, but not all of these services. 11 = Full service brick and mortar office; 12 = Full service retail office; 13 = Full service cyber office; 21 = Limited service administrative office; 22 = Limited service military facility; 23 = Limited service drive through or detached facility; 24 = Limited service loan production office; 25 = Limited service consumer credit office; 26 = Limited service contractual office; 27 = Limited service messenger office; 28 = Limited service retail office; 29 = Limited service mobile office; 30 = Limited service trust office"
+OFF_SERVTYPE_DESC,Office Service Type Description,Service Type Description
+OFFNAME,Office Name,Branch office name.
+OFFNUM,Office Number,An institution's branch office number used internally by FDIC.
+ORG_ACQ_CERT_NUM,FDIC Certificate #,The unique number assigned by the FDIC to a certificate of insurance issued to a financial institution.
+ORG_EFF_NUM_DTE,Last Structure Change Effective Date Numerical Value,A date indicating when an institution or  branch office's change/event is effective.
+ORG_END_NUM_DTE,End Date Numerical,"The date that ends or closes out the last structural event relating  to an institution. For closed institutions, this date represents the  day that the institution became inactive."
+ORG_ROLE_CDE,Organization Role Code,"Codes include FI (Financial Institution), BR (Branch), and PA"
+OTSDIST,OTS District,Office of Thrift Supervision (OTS) District - No longer used as of 7/21/11
+OTSREGNM,Office of Thrift Supervision Region,"Prior to 7/21/11, the Office of Thrift Supervision (OTS) Region in  which the institution is physically located. The five OTS Regions  and their respective states are: Northeast - Connecticut, Delaware,  Maine, Massachusetts, New Hampshire, New Jersey, New York,  Pennsylvania, Rhode Island, Vermont, West Virginia Southeast -  Alabama, District of Columbia, Florida, Georgia, Maryland, North  Carolina, Puerto Rico, South Carolina, U.S. Virgin Islands, Virginia  Central - Illinois, Indiana, Kentucky, Michigan, Ohio, Tennessee,  Wisconsin Midwest - Arkansas, Colorado, Iowa, Kansas, Louisiana,  Minnesota, Mississippi, Missouri, Nebraska, New Mexico, North  Dakota, Oklahoma, South Dakota, Texas West - Alaska, American Samoa,  Arizona, California, Guam, Hawaii, Idaho, Montana, Nevada, States of  Micronesia, Oregon, Utah, Washington, Wyoming"
+OUT_CERT,Outgoing FDIC Certificate #,A unique number of the outgoing institution assigned by the FDIC used to identify institutions and for the issuance of insurance certificates.
+OUT_CHARTAGENT,Outgoing Chartering Agency,"The chartering agency of the outgoing institution - State and Federal, and the Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+OUT_CHARTER,Outgoing OCC Charter Number,A unique number of the outgoing institution assigned by the Office of the Comptroller of the Currency (OCC) used to identify institutions that it has chartered and regulates (i.e. national  banks).
+OUT_CLASS,Outgoing Class ,"A code of the outgoing institution indicating the its major grouping. N = FDIC Insured National Commercial Bank, Federal Reserve Member; SM = FDIC Insured State Commercial Bank, Federal Reserve Member; NM = FDIC Insured State Commercial Bank, or a Mutual Commercial Bank; SI = FDIC Insured Stock and Mutual Savings Bank; MI = Mutually Insured; SB = FDIC Insured Savings Bank; SL = FDIC Insured Savings and Loan Association; OI = Other FDIC Insured Institution (International Banking Act); CU = Credit Union; NC = Non-insured Institution; NS = Non-insured Savings Association"
+OUT_CLCODE,Outgoing Class Code,Numeric code which identifies the major and minor categories of an outgoing institution.
+OUT_CNTYNAME,Outgoing County Name,County where the outgoing institution is physically located (abbreviated if the county name exceeds 16 characters).
+OUT_CNTYNUM,Outgoing County Number,The�federal�information�processing�standards�(FIPS)�numeric�code of the outgoing institution.�����������
+OUT_FDICREGION,Outgoing FDIC Supervisory Region Number,A two-digit number indicating the FDIC Supervisory Division or Region of the outgoing institution. 02 = New York; 05 = Atlanta; 09 = Chicago; 11 = Kansas City; 13 = Dallas; 14 = San Francisco; 16 = Office of Complex Financial Institutions (CFI)
+OUT_FDICREGION_DESC,Outgoing Supervisory Region Description,A description associated with the name of an FDIC supervisory region of the outgoing institution
+OUT_INSAGENT1,Outgoing Insurance Fund Membership,"Fund membership of the outgoing institution; Deposit Insurance Fund (DIF), Bank Insurance Fund (BIF), Savings Association Insurance Fund (SAIF)"
+OUT_INSAGENT2,Outgoing Secondary Insurance Fund,"As a result of the establishment of a single Deposit Insurance Fund (DIF) effective April 1, 2006, the Secondary Insurance fund is no longer applicable. Before April 1,2006, Bank Insurance Fund (BIF) or Savings Association Insurance Fund (SAIF)"
+OUT_INSTNAME,Outgoing Institution name,The legal name of the outgoing institution.
+OUT_MADDR,Outgoing Mailing Street Address,Street address portion of the mailing address of the outgoing institution.
+OUT_MCITY,Outgoing Mailing City,City portion of the mailing address of the outgoing institution. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+OUT_MSTALP,Outgoing Mailing State Alpha Code,2-digit state alpha code portion of the mailing address of the outgoing institution.
+OUT_MSTATE,Outgoing Mailing State,State name portion of the mailing address of the outgoing institution.
+OUT_MZIP5,Outgoing Mailing Zip Code,"The first three, four, or five digits of the full postal zip code portion of the mailing address of the outgoing institution."
+OUT_MZIP5_RAW,Outgoing Mailing 5-Digit Zip Code,The 5-digit postal code portion of the mailing address of the outgoing institution.
+OUT_MZIPREST,Outgoing Mailing Zip Code Extension,The 4-digit zip code extension portion of the mailing address of the outgoing institution.
+OUT_PADDR,Outgoing Physical Street Address,Street address at which the outgoing institution is physically located.
+OUT_PCITY,Outgoing Physical City,City in which the outgoing institution is physically located. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+OUT_PSTALP,Outgoing Physical State Alpha Code,"State in which the outgoing institution is physically located. The FDIC Act defines state as any State of the United States, the District of Columbia, and any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Island, and the Northern Mariana Islands."
+OUT_PZIP5,Outgoing Physical Zip Code,"The first three, four, or five digits of the full postal zip code in which the outgoing institution is physically located."
+OUT_PZIP5_RAW,Outgoing Physical 5-Digit Zip Code,The postal code (e.g. ZIP Code for the U.S.) in which the outgoing institution is physically located. 
+OUT_PZIPREST,Outgoing Physical Zip Code Extension,The 4-digit zip code extension in which the outgoing institution is physically located.
+OUT_REGAGENT,Outgoing Chartering Agency,"The chartering agency of the outgoing institution - State and Federal, and the Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+OUT_TRUST,Outgoing Trust Power,The trust power status of the outgoing institution.
+OUT_UNINUM,Outgoing FDIC Unique Number,"The FDIC unique identifier number of the outgoing institution. This value maps to the main office for  the divesting Institution in a merger, acquisition, etc."
+PADDR,Physical Street Address,Street address at which the institution or one of its branches is physically located.
+PCITY,Physical City,City in which an institution's main office or one of its branches is physically located. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+PROCDATE,Last Structure Change Process Date,A date indicating when an institution's change/event is processed.
+PSTALP,Physical State Alpha Code,"State in which the  main office is physically located. The FDIC Act defines state as any State of the United States, the District of Columbia, and any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Island, and the Northern Mariana Islands."
+PZIP5,Physical Zip Code,"The first three, four, or five digits of the full postal zip code representing in which the institution or one of its branches is physically located."
+PZIPREST,Physical Zip Code Extension,The 4-digit zip code extension in which the institution or one of its branches is physically located.
+REGAGENT,Primary Regulator,A code indicating the federal regulatory agency that provides primary supervision over an institution. OCC=Office of the Comptroller of Currency; FDIC=Federal Deposit Insurance Corporation; FRB=Federal Reserve Board; NCUA=National Credit Union Association; OTS=Office of Thrift Supervision.
+REGAGENT2,Secondary Regulator,A code indicating the federal regulatory agency that provides secondary supervision over an institution. CFPB = Consumer Financial Protection Bureau; OTS=Office of Thrift Supervision.
+REPORT_TYPE,Report Type,Type of Report
+STALP,State Alpha Code,The state abbreviation of the location of the institution's main office.
+STATE,Physical State,State in which the institution or one of its branches is physically located.
+STNAME,State Name,The state name of the location of the institution's main office.
+STNUM,State Number,The Federal Information Processing Standard code used to identify  states
+SUPRV_FD,Supervisory Region Number,A two-digit number indicating the FDIC Supervisory Division or Region. 02 = New York; 05 = Atlanta; 09 = Chicago; 11 = Kansas City; 13 = Dallas; 14 = San Francisco; 16 = Office of Complex Financial Institutions (CFI)
+SUPVR_FD_DESC,Supervisory Region Description,A description associated with the name of an FDIC supervisory region.
+SUR_CERT,Surviving FDIC Certificate #,A unique number of the surviving institution assigned by the FDIC used to identify institutions and for the issuance of insurance certificates.
+SUR_CHANGECODE,Surviving Activity Event Code,Activity event code associated with the surviving institution.
+SUR_CHARTAGENT,Surviving Chartering Agency,"The chartering agency of the surviving institution - State and Federal, and the Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+SUR_CHARTER,Surviving OCC Charter Number,A unique number of the surviving institution assigned by the Office of the Comptroller of the Currency (OCC) used to identify institutions that it has chartered and regulates (i.e. national  banks).
+SUR_CLASS,Surviving Class,"A code of the surviving institution indicating the its major grouping. N = FDIC Insured National Commercial Bank, Federal Reserve Member; SM = FDIC Insured State Commercial Bank, Federal Reserve Member; NM = FDIC Insured State Commercial Bank, or a Mutual Commercial Bank; SI = FDIC Insured Stock and Mutual Savings Bank; MI = Mutually Insured; SB = FDIC Insured Savings Bank; SL = FDIC Insured Savings and Loan Association; OI = Other FDIC Insured Institution (International Banking Act); CU = Credit Union; NC = Non-insured Institution; NS = Non-insured Savings Association"
+SUR_CLCODE,Surviving Class Code,Numeric code which identifies the major and minor categories of a surviving institution.
+SUR_CNTYNAME,Surviving County,County where the surviving institution is physically located (abbreviated if the county name exceeds 16 characters).
+SUR_CNTYNUM,Surviving County Number,The�federal�information�processing�standards�(FIPS)�numeric�code of the surviving institution.�����������
+SUR_FDICREGION,Surviving Supervisory Region Number,A two-digit number indicating the FDIC Supervisory Division or Region of the surviving institution. 02 = New York; 05 = Atlanta; 09 = Chicago; 11 = Kansas City; 13 = Dallas; 14 = San Francisco; 16 = Office of Complex Financial Institutions (CFI)
+SUR_FDICREGION_DESC,Surviving Supervisory Region Description,A description associated with the name of an FDIC supervisory region of the surviving institution
+SUR_INSAGENT1,Surviving Insurance Fund Membership,"Fund membership of the surviving institution; Deposit Insurance Fund (DIF), Bank Insurance Fund (BIF), Savings Association Insurance Fund (SAIF)"
+SUR_INSAGENT2,Surviving Secondary Insurance Fund,"As a result of the establishment of a single Deposit Insurance Fund (DIF) effective April 1, 2006, the Secondary Insurance fund is no longer applicable. Before April 1,2006, Bank Insurance Fund (BIF) or Savings Association Insurance Fund (SAIF)"
+SUR_INSTNAME,Surviving Institution Name,The legal name of the surviving institution.
+SUR_MADDR,Surviving Mailing Street Address,Street address portion of the mailing address of the surviving institution.
+SUR_MCITY,Survivng Mailing City,City portion of the mailing address of the surviving institution. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+SUR_MSTALP,Surviving Mailing State Alpha Code,2-digit state alpha code portion of the mailing address of the surviving institution.
+SUR_MSTATE,Surviving Mailing State,State name portion of the mailing address of the surviving institution.
+SUR_MZIP5,Surviving Mailing Zip Code,"The first three, four, or five digits of the full postal zip code portion of the mailing address of the surviving institution."
+SUR_MZIP5_RAW,Surviving Mailing 5-Digit Zip Code,The 5-digit postal code portion of the mailing address of the surviving institution.
+SUR_PADDR,Surviving Physical Street Address,Street address at which the surviving institution is physically located.
+SUR_PCITY,Surviving Physical City,City in which the surviving institution is physically located. Either the entire name or part of the name of a specific city may be entered to produce an Institution List.
+SUR_PSTALP,Surviving Physical State Alpha Code,"State in which the surviving institution is physically located. The FDIC Act defines state as any State of the United States, the District of Columbia, and any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Island, and the Northern Mariana Islands."
+SUR_PZIP5,Surviving Physical Zip Code,"The first three, four, or five digits of the full postal zip code in which the surviving institution is physically located."
+SUR_PZIP5_RAW,Surviving Physical 5-Digit Zip Code,The postal code (e.g. ZIP Code for the U.S.) in which the surviving institution is physically located. 
+SUR_PZIPREST,Surviving Physical Zip Code Extension,The 4-digit zip code extension in which the surviving institution is physically located.
+SUR_REGAGENT,Surviving Chartering Agency,"The chartering agency of the surviving institution - State and Federal, and the Comptroller of the Currency - Chartering authority for nationally chartered commercial banks and for federally chartered savings associations (The Office of Thrift Supervision (OTS) before 7/21/11)  State (includes U.S. Territories) - Chartering authority for institutions that are not chartered by the OCC or OTS"
+SUR_TRUST,Surviving Trust Power,The trust power status of the surviving institution.
+SYS_LST_DTETME,System Last Datetime,Last update to a record
+TRANSNUM,System Transaction Number,A unique number identifying the change/event of an institution.
+TRUST,Trust Power,"A number corresponding to a valid type of trust power that an institution can possess and exercise. 00=Trust Powers Not Known; 10=Full Trust Powers Granted; 11=Full Trust Powers Granted, Exercised; 12=Full Trust Powers Granted, Not Exercised; 20=Limited Trust Powers Granted; 21=Limited Trust Powers Granted, Exercised; 30=Trust Powers Not Granted; 31=Trust Powers Not Granted, But Exercised; 40=Trust Powers Grandfathered"
+UNINUM,FDIC's Unique Number,"FDIC's unique identifier number for holding companies, banks, branches and nondeposit subsidiaries."
+ZIP,Zip Code,"The first three, four, or five digits of the full postal zip code representing physical location of the institution or one of its branch offices."
+ZIP_RAW,5-Digit Zip Code,The postal code (e.g. ZIP Code for the U.S.) associated with the physical address of the institution's main office.
+ZIPREST,Zip Code Extension,The 4-digit zip code extension of the physical location of an institution or one if its branch offices.
