@@ -1,4 +1,5 @@
 # fdic_banks_eda
+![]https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-21%20at%204.01.44%20PM.png
 
 # Project Proposal
 Directions: In this exercise, you will write a 1-2 page proposal for your semester project. Please follow the instructions below.
