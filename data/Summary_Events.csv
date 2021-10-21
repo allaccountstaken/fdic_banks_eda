@@ -1,0 +1,11 @@
+Event Types,"N: National Banks, member of the Federal Reserve System (FRS)","SM: State Chartered Banks, member of the Federal Reserve System (FRS)","NM: State Chartered Banks, not member of the Federal Reserve System (FRS)",OI: Insured Branches of Foreign Banks,SI: FDIC Supervised State Savings Banks,SB: Federal Savings Bank,SL: Federal & State Savings and Loans,NC: Non-FDIC Insured Commercial Banks,NS: Non-FDIC Insured Thrifts,CU: Non-FDIC Insured Credit Unions
+New Institutions,243,89,1009,0,30,99,6,122,1,27
+Business Combinations,1696,1130,2680,0,277,303,61,38,0,1092
+Business Combinations - Failures,128,70,289,0,9,42,9,0,0,14
+Interim Mergers & Reorganizations,230,63,323,0,63,32,3,32,0,12
+Conversions,813,2257,2098,0,551,1170,200,283,19,98
+Title Changes,796,592,2465,1,329,389,148,167,0,807
+Main Office Relocations,1026,619,3494,12,233,539,140,172,1,841
+Liquidations,60,16,103,3,6,57,5,104,5,26
+Trust Powers,85,11,319,0,57,33,13,9,0,0
+Branch Purchases & Assumptions by Institution,629,343,1229,1,126,154,37,3,0,72
