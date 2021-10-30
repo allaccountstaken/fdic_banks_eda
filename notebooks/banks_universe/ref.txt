@@ -1,0 +1,17 @@
+References on banks types and regulator:
+
+https://www.everycrsreport.com/reports/R44918.html
+
+https://www.frbsf.org/education/publications/doctor-econ/2006/november/commercial-banks-regulation/
+
+https://www.bankrate.com/finance/cd/types-of-banking-institutions.aspx
+
+https://www.investopedia.com/terms/f/federalreservebank.asp
+
+https://github.com/allaccountstaken/fdic_banks_eda/blob/main/survey/FDIC_GLOSSARY.pdf
+
+	Chartering authority: A state or federal agency that grants charters to new depository institutions, the chartering authority is usually the state banking department; for national banks, it is the OCC; and for federal savings institutions, it is the Office of Thrift Supervision (OTS), for credit unions - The National Credit Union Administration (NCUA).
+
+	"failure": The closing of a financial institution by its chartering authority, which rescinds the institution's charter and revokes its ability to conduct business because the institution is 1) insolvent, 2) critically undercapitalized, or 3) unable to meet deposit outflows. 
+
+	"payoff": A resolution method for a failed bank or thrift in which the FDIC directly pays the insured amount to each insured depositor. Also known as a deposit payoff.
