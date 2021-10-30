@@ -1,7 +1,7 @@
 
 # fdic_banks_eda
 ![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-30%20at%201.01.46%20PM.png)
-
+source: https://www.everycrsreport.com/files/20200310_R44918_8448f8813e769930dd24033bcf31091ff31028c8.pdf
 
 ![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-21%20at%204.01.44%20PM.png)
 
