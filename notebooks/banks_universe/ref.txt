@@ -29,9 +29,11 @@ FDIC terms: "N = FDIC Insured National Commercial Bank, Federal Reserve Member; 
 
 
 FDIC defers to state law when it comes to Trust Powers:
+
 "A. Trust Powers
 Trust powers are granted to state-chartered banks under state law, which is usually administered through a bank's chartering authority.  It is state law, therefore, which defines activities constituting fiduciary or trust powers.  The FDIC always defers to state law in these matters.
 
 State statutes and Corporation regulations do not always uniformly identify what functions constitute "fiduciary" activities requiring trust powers.  Some state statutes define "trust activity" as serving in a (state's) legally defined capacities of trustee, executor or administrator of estates, or guardian of the estate of a minor or incompetent.  However, the term "trust activity" is not as clear when a bank is performing an agency function which may, or may not, require trust powers.  Some banks administer "managed agency accounts" wherein there is no "trust" relationship, yet the bank often assumes full control of cash and assets, including investment discretion.  In these cases, the bank's responsibilities exceed those exercised in passive, or directed personal trust accounts, or in court directed estates and guardianships.  While a bank may claim it is not acting in a "trust" capacity for such accounts, its activities may require trust powers under state law."
+
 Source: https://www.fdic.gov/regulations/examinations/trustmanual/section_10/section_x.html
 
