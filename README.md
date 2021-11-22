@@ -1,15 +1,14 @@
 
 # fdic_banks_eda
 
-![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-21%20at%204.01.44%20PM.png)
-
 # Project Proposal
 
 ### INTRODUCTION
-The project (https://github.com/allaccountstaken/fdic_banks_eda) will provide explanatory data analysis (EDA) of banking industry historical evolution. It seems that the industry is going through a rapid consolidation as a number of regulated entities declined from 8,500 to roughly 5,000 in the last 20 years. 
+The project will provide explanatory data analysis (EDA) of banking industry historical evolution. It seems that the industry is going through a rapid consolidation as a number of regulated entities declined from 8,500 to roughly 5,000 in the last 20 years. 
 
 From a preliminary survey, it appears that only 500 banks actually failed during these years, and consequently, 3,500 disappeared due to other reasons, such as mergers, charter changes and voluntary liquidation. The main objective of the EDA is to create visual explanations of this consolidation, i.e. historical trends and drivers. 
 
+![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-21%20at%204.01.44%20PM.png)
 
 ### THE DATA
 Federal Deposit Insurance Corporation (FDIC) is a United States government agency that examines and supervises the majority of commercial and savings banks (https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation). The Corporation collects and maintains granular datasets describing the industry as a whole, as well as individual regulated entities. 
