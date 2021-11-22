@@ -1,7 +1,5 @@
 
 # fdic_banks_eda
-![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-30%20at%201.01.46%20PM.png)
-source: https://www.everycrsreport.com/files/20200310_R44918_8448f8813e769930dd24033bcf31091ff31028c8.pdf
 
 ![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-21%20at%204.01.44%20PM.png)
 
@@ -16,7 +14,17 @@ From a preliminary survey, it appears that only 500 banks actually failed during
 ### THE DATA
 Federal Deposit Insurance Corporation (FDIC) is a United States government agency that examines and supervises the majority of commercial and savings banks (https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation). The Corporation collects and maintains granular datasets describing the industry as a whole, as well as individual regulated entities. 
 
-Statutory Reports of Condition and Income (Call reports) are provided by the Examination Council via SOUP API: https://cdr.ffiec.gov/public/ManageFacsimiles.aspx. General data are available to the public via REST API: https://banks.data.fdic.gov/bankfind-suite/. Detailed Swagger documentation is available here: https://banks.data.fdic.gov/docs/swagger.yaml. Moreover, FDIC web sites contain numerous HTML tables with aggregated information that can be obtained programmatically with Python requests library.
+Statutory Reports of Condition and Income (Call reports) are provided by the Examination Council via SOUP API: 
+- https://cdr.ffiec.gov/public/ManageFacsimiles.aspx. 
+
+General data are available to the public via REST API: 
+- https://banks.data.fdic.gov/bankfind-suite/. 
+
+Detailed Swagger documentation is available here: 
+- https://banks.data.fdic.gov/docs/swagger.yaml. 
+ 
+Moreover, FDIC web sites contain numerous HTML tables with aggregated information that can be obtained programmatically with Python requests library.
+
 Insights we are aiming to produce are important because credit institutions are critical for community development and economic growth. Moreover, costs of financial restructuring, although are not directly endured by tax payers, are still unproductive and avoidable. Finally, understanding consolidation drivers can help inform direct fintech innovation and future  product development. 
 
 ### EXPERIMENTAL DESIGN
