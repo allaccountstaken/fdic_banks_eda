@@ -24,17 +24,17 @@ The data will be obtained from the official FDIC databases. Historical events wi
 
 It is also proposed that EDA will be following the waterfall chart pattern, https://en.wikipedia.org/wiki/Waterfall_chart, i.e. quarterly status: new entrants, mergers and spinoffs, and exits. This will require a tabular data format: rows being report dates and bank IDs, columns being event status and selected financial metrics. Expected format of the resulting table is provided below:
 
-![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-10-30%20at%201.01.46%20PM.png)
+![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-11-21%20at%208.46.59%20PM.png)
 
 ### PROJECT MANAGEMENT
-What are the milestones and the role for each team member?   
+![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-11-21%20at%208.47.24%20PM.png) 
 
 ### RESULTS
 It is anticipated that the summary plot will allow for visual querying of the dataset, i.e. what entities were added and removed from the set during a specific time period. Alternatively, command line interface will allow for manual examination of the dataset. 
 
 
 ### TESTING
-Describe what testing you will conduct. Describe if you will write and use the unit tests.
+![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-11-21%20at%208.48.00%20PM.png)
 
 ### OUTCOME
 The final product will provide a unique big picture view of the banking industry, what will help general public better understand trends and drivers of the recent consolidation. Moreover, it is anticipated that users will enjoy extensive filtering functionality and easy to understand visuals. Finally, the resulting dataset can be used for multi-class classifications because it will contain labels describing historical events as well as relevant financial metrics. 
