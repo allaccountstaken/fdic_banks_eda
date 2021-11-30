@@ -38,7 +38,7 @@ It is also proposed that EDA will be following the waterfall chart pattern, http
 
 ### RESULTS
 It is anticipated that the summary plot will allow for visual querying of the dataset, i.e. what entities were added and removed from the set during a specific time period. Alternatively, command line interface will allow for manual examination of the dataset. 
-
+![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/waterfall_example.png)
 
 ### TESTING
 ![](https://github.com/allaccountstaken/fdic_banks_eda/blob/main/results/Screen%20Shot%202021-11-21%20at%208.48.00%20PM.png)
