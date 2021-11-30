@@ -1,0 +1,73 @@
+pip install waterfall-ax
+from waterfall_ax import WaterfallChart
+import matplotlib.pyplot as plt
+
+# Cumulative values
+step_values = [2491, 4547, 2188, 21577, 86826, 280, 8544, 133914, 858100]
+
+# Plot
+waterfall = WaterfallChart(step_values)
+wf_ax = waterfall.plot_waterfall(title='A Simple Example')
+plt.show()
+# Labels
+metric_name = 'Cost'
+step_names = ['CITY NATIONAL BANK OF NEW JERSEY', 'LOUISA COMMUNITY BANK', 'RESOLUTE BANK', 'ENLOE STATE BANK', 'WASHINGTON FEDERAL BANK FOR SAVINGS', 'THE FARMERS AND MERCHANTS STATE BANK OF ARGONIA', 'FAYETTE COUNTY BANK', 'GUARANTY BANK']
+last_step_label = 'FIRST NBC BANK'
+
+# Styles
+bar_labels = [x for x in range(10)]
+bar_kwargs = {'edgecolor': 'black'}
+line_kwargs = {'color': 'red'}
+
+# Plot waterfall
+waterfall = WaterfallChart(
+    step_values, 
+    step_names=step_names, 
+    metric_name=metric_name, 
+    last_step_label=last_step_label
+)
+wf_ax = waterfall.plot_waterfall(
+    title='Change Styles and Labels',
+    bar_labels = bar_labels,
+    bar_kwargs = bar_kwargs,
+    line_kwargs = line_kwargs
+)
+plt.show()
+
+# Set style
+plt.style.use('dark_background')
+
+# Plot
+waterfall = WaterfallChart(step_values)
+color_kwargs = {
+    'c_bar_pos': 'lightgreen',
+    'c_bar_neg': 'orange',
+    'c_bar_start': 'white',
+    'c_bar_end': 'white',
+    'c_text_pos': 'white',    
+    'c_text_neg': 'white',
+    'c_text_start': 'yellow',
+    'c_text_end': 'yellow'
+}
+wf_ax = waterfall.plot_waterfall(title='Style dark_background', color_kwargs=color_kwargs)
+plt.show()
+
+# Add grid and xlabel after the waterfall ax is created
+wf_ax = waterfall.plot_waterfall(title='10 most recent failed banks and their corresponding cost', color_kwargs=color_kwargs)
+plt.grid(True)
+plt.xlabel('Cost of 10 most recent failed banks')
+plt.show()
+
+# Set style
+plt.style.use('ggplot')
+
+# Create subplots
+fig, axs = plt.subplots(1, 2, figsize=(15, 4))
+ax1, ax2 = axs
+ax1.plot(range(10))
+ax1.set_title('First subplot')
+
+# Plot waterfall
+waterfall = WaterfallChart(step_values)
+wf_ax = waterfall.plot_waterfall(ax=ax2, title='Waterfall as a subplot')
+plt.show()
