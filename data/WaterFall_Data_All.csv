@@ -4,103 +4,119 @@
 2,Combinations,-553,Relative,Combinations
 3,Combinations - Failed,-7,Relative,Combinations of Failed Bank
 4,Liquidations,0,Relative,Liquidations
-5,2001 Total,9528,Absolute,Year Start
-6,New Institutions,145,Relative,New Institutions
-7,Combinations,-452,Relative,Combinations
-8,Combinations - Failed,-4,Relative,Combinations of Failed Bank
-9,Liquidations,0,Relative,Liquidations
-10,2002 Total,9272,Absolute,Year Start
-11,New Institutions,94,Relative,New Institutions
-12,Combinations,-354,Relative,Combinations
-13,Combinations - Failed,-7,Relative,Combinations of Failed Bank
-14,Liquidations,-4,Relative,Liquidations
-15,2003 Total,9109,Absolute,Year Start
-16,New Institutions,117,Relative,New Institutions
-17,Combinations,-281,Relative,Combinations
-18,Combinations - Failed,-3,Relative,Combinations of Failed Bank
-19,Liquidations,0,Relative,Liquidations
-20,2004 Total,8919,Absolute,Year Start
-21,New Institutions,128,Relative,New Institutions
-22,Combinations,-330,Relative,Combinations
-23,Combinations - Failed,-3,Relative,Combinations of Failed Bank
-24,Liquidations,-1,Relative,Liquidations
-25,2005 Total,8776,Absolute,Year Start
-26,New Institutions,181,Relative,New Institutions
-27,Combinations,-322,Relative,Combinations
-28,Combinations - Failed,0,Relative,Combinations of Failed Bank
-29,Liquidations,0,Relative,Liquidations
-30,2006 Total,8686,Absolute,Year Start
-31,New Institutions,195,Relative,New Institutions
-32,Combinations,-347,Relative,Combinations
+5,Adjustments,78,Relative,All Other Adjustments
+6,2001 Total,0,Total,Year Start
+7,New Institutions,145,Relative,New Institutions
+8,Combinations,-452,Relative,Combinations
+9,Combinations - Failed,-4,Relative,Combinations of Failed Bank
+10,Liquidations,0,Relative,Liquidations
+11,Adjustments,55,Relative,All Other Adjustments
+12,2002 Total,0,Total,Year Start
+13,New Institutions,94,Relative,New Institutions
+14,Combinations,-354,Relative,Combinations
+15,Combinations - Failed,-7,Relative,Combinations of Failed Bank
+16,Liquidations,-4,Relative,Liquidations
+17,Adjustments,108,Relative,All Other Adjustments
+18,2003 Total,0,Total,Year Start
+19,New Institutions,117,Relative,New Institutions
+20,Combinations,-281,Relative,Combinations
+21,Combinations - Failed,-3,Relative,Combinations of Failed Bank
+22,Liquidations,0,Relative,Liquidations
+23,Adjustments,-23,Relative,All Other Adjustments
+24,2004 Total,0,Total,Year Start
+25,New Institutions,128,Relative,New Institutions
+26,Combinations,-330,Relative,Combinations
+27,Combinations - Failed,-3,Relative,Combinations of Failed Bank
+28,Liquidations,-1,Relative,Liquidations
+29,Adjustments,63,Relative,All Other Adjustments
+30,2005 Total,0,Total,Year Start
+31,New Institutions,181,Relative,New Institutions
+32,Combinations,-322,Relative,Combinations
 33,Combinations - Failed,0,Relative,Combinations of Failed Bank
 34,Liquidations,0,Relative,Liquidations
-35,2007 Total,8543,Absolute,Year Start
-36,New Institutions,193,Relative,New Institutions
-37,Combinations,-339,Relative,Combinations
-38,Combinations - Failed,-3,Relative,Combinations of Failed Bank
-39,Liquidations,0,Relative,Liquidations
-40,2008 Total,8318,Absolute,Year Start
-41,New Institutions,99,Relative,New Institutions
-42,Combinations,-305,Relative,Combinations
-43,Combinations - Failed,-24,Relative,Combinations of Failed Bank
-44,Liquidations,0,Relative,Liquidations
-45,2009 Total,8011,Absolute,Year Start
-46,New Institutions,37,Relative,New Institutions
-47,Combinations,-186,Relative,Combinations
-48,Combinations - Failed,-134,Relative,Combinations of Failed Bank
-49,Liquidations,-7,Relative,Liquidations
-50,2010 Total,7671,Absolute,Year Start
-51,New Institutions,13,Relative,New Institutions
-52,Combinations,-199,Relative,Combinations
-53,Combinations - Failed,-152,Relative,Combinations of Failed Bank
-54,Liquidations,-6,Relative,Liquidations
-55,2011 Total,7363,Absolute,Year Start
-56,New Institutions,5,Relative,New Institutions
-57,Combinations,-199,Relative,Combinations
-58,Combinations - Failed,-92,Relative,Combinations of Failed Bank
-59,Liquidations,0,Relative,Liquidations
-60,2012 Total,7102,Absolute,Year Start
-61,New Institutions,1,Relative,New Institutions
-62,Combinations,-212,Relative,Combinations
-63,Combinations - Failed,-48,Relative,Combinations of Failed Bank
-64,Liquidations,-3,Relative,Liquidations
-65,2013 Total,6817,Absolute,Year Start
-66,New Institutions,2,Relative,New Institutions
-67,Combinations,-234,Relative,Combinations
-68,Combinations - Failed,-23,Relative,Combinations of Failed Bank
-69,Liquidations,-1,Relative,Liquidations
-70,2014 Total,6512,Absolute,Year Start
-71,New Institutions,0,Relative,New Institutions
-72,Combinations,-278,Relative,Combinations
-73,Combinations - Failed,-18,Relative,Combinations of Failed Bank
-74,Liquidations,0,Relative,Liquidations
-75,2015 Total,6193,Absolute,Year Start
-76,New Institutions,1,Relative,New Institutions
-77,Combinations,-308,Relative,Combinations
-78,Combinations - Failed,-8,Relative,Combinations of Failed Bank
-79,Liquidations,0,Relative,Liquidations
-80,2016 Total,5916,Absolute,Year Start
-81,New Institutions,0,Relative,New Institutions
-82,Combinations,-258,Relative,Combinations
-83,Combinations - Failed,-5,Relative,Combinations of Failed Bank
-84,Liquidations,0,Relative,Liquidations
-85,2017 Total,5672,Absolute,Year Start
-86,New Institutions,5,Relative,New Institutions
-87,Combinations,-230,Relative,Combinations
-88,Combinations - Failed,-8,Relative,Combinations of Failed Bank
-89,Liquidations,0,Relative,Liquidations
-90,2018 Total,5408,Absolute,Year Start
-91,New Institutions,8,Relative,New Institutions
-92,Combinations,-261,Relative,Combinations
-93,Combinations - Failed,0,Relative,Combinations of Failed Bank
+35,Adjustments,51,Relative,All Other Adjustments
+36,2006 Total,0,Total,Year Start
+37,New Institutions,195,Relative,New Institutions
+38,Combinations,-347,Relative,Combinations
+39,Combinations - Failed,0,Relative,Combinations of Failed Bank
+40,Liquidations,0,Relative,Liquidations
+41,Adjustments,9,Relative,All Other Adjustments
+42,2007 Total,0,Total,Year Start
+43,New Institutions,193,Relative,New Institutions
+44,Combinations,-339,Relative,Combinations
+45,Combinations - Failed,-3,Relative,Combinations of Failed Bank
+46,Liquidations,0,Relative,Liquidations
+47,Adjustments,-76,Relative,All Other Adjustments
+48,2008 Total,0,Total,Year Start
+49,New Institutions,99,Relative,New Institutions
+50,Combinations,-305,Relative,Combinations
+51,Combinations - Failed,-24,Relative,Combinations of Failed Bank
+52,Liquidations,0,Relative,Liquidations
+53,Adjustments,-77,Relative,All Other Adjustments
+54,2009 Total,0,Total,Year Start
+55,New Institutions,37,Relative,New Institutions
+56,Combinations,-186,Relative,Combinations
+57,Combinations - Failed,-134,Relative,Combinations of Failed Bank
+58,Liquidations,-7,Relative,Liquidations
+59,Adjustments,-50,Relative,All Other Adjustments
+60,2010 Total,0,Total,Year Start
+61,New Institutions,13,Relative,New Institutions
+62,Combinations,-199,Relative,Combinations
+63,Combinations - Failed,-152,Relative,Combinations of Failed Bank
+64,Liquidations,-6,Relative,Liquidations
+65,Adjustments,36,Relative,All Other Adjustments
+66,2011 Total,0,Total,Year Start
+67,New Institutions,5,Relative,New Institutions
+68,Combinations,-199,Relative,Combinations
+69,Combinations - Failed,-92,Relative,Combinations of Failed Bank
+70,Liquidations,0,Relative,Liquidations
+71,Adjustments,25,Relative,All Other Adjustments
+72,2012 Total,0,Total,Year Start
+73,New Institutions,1,Relative,New Institutions
+74,Combinations,-212,Relative,Combinations
+75,Combinations - Failed,-48,Relative,Combinations of Failed Bank
+76,Liquidations,-3,Relative,Liquidations
+77,Adjustments,-23,Relative,All Other Adjustments
+78,2013 Total,0,Total,Year Start
+79,New Institutions,2,Relative,New Institutions
+80,Combinations,-234,Relative,Combinations
+81,Combinations - Failed,-23,Relative,Combinations of Failed Bank
+82,Liquidations,-1,Relative,Liquidations
+83,Adjustments,-49,Relative,All Other Adjustments
+84,2014 Total,0,Total,Year Start
+85,New Institutions,0,Relative,New Institutions
+86,Combinations,-278,Relative,Combinations
+87,Combinations - Failed,-18,Relative,Combinations of Failed Bank
+88,Liquidations,0,Relative,Liquidations
+89,Adjustments,-23,Relative,All Other Adjustments
+90,2015 Total,0,Total,Year Start
+91,New Institutions,1,Relative,New Institutions
+92,Combinations,-308,Relative,Combinations
+93,Combinations - Failed,-8,Relative,Combinations of Failed Bank
 94,Liquidations,0,Relative,Liquidations
-95,2019 Total,5182,Absolute,Year Start
-96,New Institutions,13,Relative,New Institutions
-97,Combinations,-228,Relative,Combinations
-98,Combinations - Failed,-4,Relative,Combinations of Failed Bank
-99,Liquidations,0,Relative,Liquidations
-100,2020 Total,5004,Absolute,Year Start
-101,New Institutions,7,Relative,New Institutions
-102,Combinations,-169,Relative,Combinations
-103,Combinations - Failed,-4,Relative,Combinations of Failed Bank
-104,Liquidations,0,Relative,Liquidations
+95,Adjustments,38,Relative,All Other Adjustments
+96,2016 Total,0,Total,Year Start
+97,New Institutions,0,Relative,New Institutions
+98,Combinations,-258,Relative,Combinations
+99,Combinations - Failed,-5,Relative,Combinations of Failed Bank
+100,Liquidations,0,Relative,Liquidations
+101,Adjustments,19,Relative,All Other Adjustments
+102,2017 Total,0,Total,Year Start
+103,New Institutions,5,Relative,New Institutions
+104,Combinations,-230,Relative,Combinations
+105,Combinations - Failed,-8,Relative,Combinations of Failed Bank
+106,Liquidations,0,Relative,Liquidations
+107,Adjustments,-31,Relative,All Other Adjustments
+108,2018 Total,0,Total,Year Start
+109,New Institutions,8,Relative,New Institutions
+110,Combinations,-261,Relative,Combinations
+111,Combinations - Failed,0,Relative,Combinations of Failed Bank
+112,Liquidations,0,Relative,Liquidations
+113,Adjustments,27,Relative,All Other Adjustments
+114,2019 Total,0,Total,Year Start
+115,New Institutions,13,Relative,New Institutions
+116,Combinations,-228,Relative,Combinations
+117,Combinations - Failed,-4,Relative,Combinations of Failed Bank
+118,Liquidations,0,Relative,Liquidations
+119,Adjustments,41,Relative,All Other Adjustments
+120,2020 Total,0,Total,Year Start
