@@ -74,6 +74,26 @@ def CountByYear(df, class_col, date_col, count_col):
 
 
 def plot(liquidations, new_institutions, combinations, failures, last_generated):
+    def ValidateInputYears():
+        try:
+            min = int(minyear.get())
+            max = int(maxyear.get())
+        except:
+            Label(inputFrame, text= "Inputted Years are not Integers. Please try again.", fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5, pady=5)
+            print('Inputted Years are not Integers. Please try again.')
+            raise Exception()
+
+        if min < 2000 or max < 2000 or min > 2020 or max > 2020:
+            Label(inputFrame, text= "Inputted Years are are outside valid range (2000-2020). Please try again.", fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5)
+            raise Exception()
+        elif max < min:
+            Label(inputFrame, text= 'Inputted Max Year is less than Min Year. Please try again.', fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5)
+
+            
+            raise Exception()      
+        Label(inputFrame, text= '', fg = "black", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5)
+        return min, max    
+    
     def newInstitutions():
         GenerateHistogram(ni2_cnts, 'New Institutions')
         last_generated[0] = 'NewInstitutions'
@@ -87,10 +107,10 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
         GenerateHistogram(fa2_cnts, 'Failures')
         last_generated[0] = 'Failures'
     def GenerateHistogram(df, category):
-        min = int(minyear.get())
-        max = int(maxyear.get())
+
+        min, max = ValidateInputYears()
+
         # Generate Figure
-      
         fig, axis = plt.subplots(figsize=(12, 5))
 
         # Filter Year to Desired Time Frame
@@ -117,7 +137,7 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
         # Show Figure
       
         canvas = FigureCanvasTkAgg(fig,
-                               master = window)  
+                               master = graphFrame)  
         canvas.draw()
         canvas.get_tk_widget().grid(row=5, column=6, sticky=W)
 
@@ -134,16 +154,15 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
         elif verisonToDownload =="Failures":
             df = fa2.copy()
         else:
-            print("tbd")
+            Label(inputFrame, text= "Please generate a view to download data", fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5, pady=5)
         df.columns = ['Cert_ID', 'Class_Type', 'Effective_Date']
         df['Change_Type'] = verisonToDownload
        
-        min = int(minyear.get())
-        max = int(maxyear.get())
+        min, max = ValidateInputYears()
         df = df.loc[(df['Effective_Date'].dt.year >= min) & (df['Effective_Date'].dt.year <= max)].reset_index(drop=True)
         df = df.sort_values(by=['Effective_Date']).reset_index(drop = True)
         df.to_csv(f'data/data_outputs/{verisonToDownload}_{min}_to_{max}.csv')
-    
+        Label(inputFrame, text= "File successfully downloaded!", fg = "black", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5, pady=5)
     def definitions():
         textOutput = "New Bank: A New Bank is a bank that has been created in the corresponding year. New banks have xyz.\n Failed Bank: A failed bank is a bank that has failed.\nLiquidated Bank: A bank that has been liquidated means that everyone inside has been turned into a giant smoothie to give to Jeff Besos to drink."
         output.insert(END, textOutput)
@@ -162,45 +181,59 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
     co2_cnts = CountByYear(co2, 'ACQ_CLASS_TYPE_DESC', 'EFFDATE', 'CERT')
     fa2_cnts = CountByYear(fa2, 'ACQ_CLASS_TYPE_DESC', 'EFFDATE', 'CERT')
     
+    #--------------Main Window#
     window = Tk()
     window.title("FDIC Data - DS5100")
 
+    #----Frames----#
+    inputFrame = Frame(window)
+    inputFrame.pack(side=TOP)
+    buttonFrame= Frame(window)
+    buttonFrame.pack()
+
+    graphFrame = Frame(window)
+    graphFrame.pack(side=BOTTOM, expand = True)
+
+
+
+    Label(inputFrame, text= "FDIC Charter Changes 2000-2020", fg = "black", font="none 20 bold").grid(row=1,  column=1, sticky=EW, columnspan=5,padx=5, pady=5)
+    Label(inputFrame, text= '', fg = "black", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5)
+    
     #create entry for years
-    Label(window, text= "Min Year:", bg="white", fg = "black", font="none 12 bold").grid(row=3,  column=2, sticky=W)
-    minyear = Entry(window, width = 10, bg = "white")
+    Label(inputFrame, text= "Min Year:", fg = "black", font="none 12 bold").grid(row=3,  column=2, sticky=W)
+    minyear = Entry(inputFrame, width = 10, bg = "white")
     minyear.grid(row=3, column = 3, sticky =W)
 
-    Label(window, text= "Max Year:", bg="white", fg = "black", font="none 12 bold").grid(row=3,  column=4, sticky=W)
-    maxyear = Entry(window, width = 10, bg = "white")
+    Label(inputFrame, text= "Max Year:", fg = "black", font="none 12 bold").grid(row=3,  column=4, sticky=W)
+    maxyear = Entry(inputFrame, width = 10, bg = "white")
     maxyear.grid(row=3, column = 5, sticky =W) 
 
     #------NEW INSTITUITONS------#
-    Button(window, text="NEW BANKS", width = 15, command=newInstitutions).grid(row=7, column = 3, sticky = W)
+    Button(buttonFrame, text="NEW BANKS", width = 15, command=newInstitutions).grid(row=7, column = 3, sticky = W)
     #create label for text
     #Label(window, text= "See New Banks:", bg="white", fg = "black", font="none 12 bold").grid(row=6,  column=2, sticky=W)
    
    #---------FAILED BANKS--------#
     #Label(window, text= "See Failed Banks:", bg="white", fg = "black", font="none 12 bold").grid(row=6,  column=4, sticky=W)
-    Button(window, text="FAILED BANKS", width = 15, command=failInstitutions).grid(row=7, column = 5, sticky = W)
+    Button(buttonFrame, text="FAILED BANKS", width = 15, command=failInstitutions).grid(row=7, column = 5, sticky = W)
 
 
     #------LIQUIDATED BANKS-----#
     #Label(window, text= "See Liquidated Banks:", bg="white", fg = "black", font="none 12 bold").grid(row=6,  column=6, sticky=W)
-    Button(window, text="LIQUIDATED BANKS", width = 15, command=liquidInstitutions).grid(row=7, column = 7, sticky = W)
+    Button(buttonFrame, text="LIQUIDATED BANKS", width = 15, command=liquidInstitutions).grid(row=7, column = 7, sticky = W)
 
     #-----Combination Banks-----#
     #Label(window, text= "See Liquidated Banks:", bg="white", fg = "black", font="none 12 bold").grid(row=6,  column=6, sticky=W)
-    Button(window, text="COMBINED BANKS", width = 15, command=combInstitutions).grid(row=7, column = 9, sticky = W)
+    Button(buttonFrame, text="COMBINED BANKS", width = 15, command=combInstitutions).grid(row=7, column = 9, sticky = W)
 
-    #Label(window, text = "Definitions",bg="white", fg = "black", font="none 12 bold").grid(row=9,  column=6, sticky=W) 
-    #Button(window, text="DEFINITIONS HELP", command=definitions).grid(row=10, column = 6, columnspan=2, sticky = W)
+
 
     #output = Text(window, width=75, height=6, wrap = WORD, background = "white")
 
     #output.grid(row=11, column=6, columnspan=2, sticky=W)
     
     #-------Download Data Button---------#
-    Button(window, text="DOWNLOAD DATA", width = 15, command =download).grid(row=10, column = 7, sticky = W)
+    Button(graphFrame, text="DOWNLOAD DATA", width = 15, command =download).grid(row=10, column = 6, columnspan=4,sticky = EW, padx=5, pady=5)
 
     window.mainloop()
 
