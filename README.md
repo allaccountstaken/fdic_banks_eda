@@ -45,3 +45,14 @@ It is anticipated that the summary plot will allow for visual querying of the da
 
 ### OUTCOME
 The final product will provide a unique big picture view of the banking industry, what will help general public better understand trends and drivers of the recent consolidation. Moreover, it is anticipated that users will enjoy extensive filtering functionality and easy to understand visuals. Finally, the resulting dataset can be used for multi-class classifications because it will contain labels describing historical events as well as relevant financial metrics. 
+
+
+### Running the GUI
+The GUI is not able to be run in a jupyter notebook. The dependencies of the GUI are
+-tkinter
+-matplotlib
+-pandas
+
+![]https://www.tutorialspoint.com/how-to-install-tkinter-in-python
+To install Tkinter using pip, use the command 
+```pip install tk```

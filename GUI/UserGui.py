@@ -1,12 +1,11 @@
 from tkinter import *
 import pandas as pd
-import datetime as dt
-import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, 
 NavigationToolbar2Tk)
+
 '''
 Developer Notes: 
 Year Range is from 2000-2020, User can determine year range within those years to create more specific charts
@@ -80,17 +79,16 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
             max = int(maxyear.get())
         except:
             Label(inputFrame, text= "Inputted Years are not Integers. Please try again.", fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5, pady=5)
-            print('Inputted Years are not Integers. Please try again.')
-            raise Exception()
+            raise TypeError()
 
         if min < 2000 or max < 2000 or min > 2020 or max > 2020:
             Label(inputFrame, text= "Inputted Years are are outside valid range (2000-2020). Please try again.", fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5)
-            raise Exception()
+            raise ValueError()
         elif max < min:
             Label(inputFrame, text= 'Inputted Max Year is less than Min Year. Please try again.', fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5)
 
             
-            raise Exception()      
+            raise ValueError()      
         Label(inputFrame, text= '', fg = "black", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5)
         return min, max    
     
@@ -155,6 +153,7 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
             df = fa2.copy()
         else:
             Label(inputFrame, text= "Please generate a view to download data", fg = "red", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5, pady=5)
+            raise UnboundLocalError()
         df.columns = ['Cert_ID', 'Class_Type', 'Effective_Date']
         df['Change_Type'] = verisonToDownload
        
@@ -163,9 +162,7 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
         df = df.sort_values(by=['Effective_Date']).reset_index(drop = True)
         df.to_csv(f'data/data_outputs/{verisonToDownload}_{min}_to_{max}.csv')
         Label(inputFrame, text= "File successfully downloaded!", fg = "black", font="none 8 italic").grid(row=2,  column=1, sticky=EW, columnspan=5,padx=5, pady=5)
-    def definitions():
-        textOutput = "New Bank: A New Bank is a bank that has been created in the corresponding year. New banks have xyz.\n Failed Bank: A failed bank is a bank that has failed.\nLiquidated Bank: A bank that has been liquidated means that everyone inside has been turned into a giant smoothie to give to Jeff Besos to drink."
-        output.insert(END, textOutput)
+
     #create label
     #include image
     #photo1 = PhotoImage(file="brand.gif")
@@ -226,11 +223,6 @@ def plot(liquidations, new_institutions, combinations, failures, last_generated)
     #Label(window, text= "See Liquidated Banks:", bg="white", fg = "black", font="none 12 bold").grid(row=6,  column=6, sticky=W)
     Button(buttonFrame, text="COMBINED BANKS", width = 15, command=combInstitutions).grid(row=7, column = 9, sticky = W)
 
-
-
-    #output = Text(window, width=75, height=6, wrap = WORD, background = "white")
-
-    #output.grid(row=11, column=6, columnspan=2, sticky=W)
     
     #-------Download Data Button---------#
     Button(graphFrame, text="DOWNLOAD DATA", width = 15, command =download).grid(row=10, column = 6, columnspan=4,sticky = EW, padx=5, pady=5)
