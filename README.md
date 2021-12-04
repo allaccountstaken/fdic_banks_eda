@@ -66,6 +66,12 @@ For the program to run, ensure the program is running in the parent folder.
 
 ``` fdic_banks_eda/```
 ## Using the GUI
+
+Below is a video demonstration of the GUI:
+
+https://user-images.githubusercontent.com/32313952/144725567-918a2779-cffe-48d8-80b3-13e3aca28b4f.mp4
+
+
 The GUI takes no command line arguments, it should run right away. 
 When the GUI starts, this is the first window you will see:
 
@@ -109,6 +115,11 @@ The program will continue to run, generating and downloading different views bas
 
 ## Error Handling in the GUI
 The GUI relies on user input to generate views. We have methods to handle incorrect user input to ensure the GUI works as intended. When a user generates an error, an error message will appear in red under the title, prompting the user the correct course of action to fix the error. 
+
+Below is a video that demonstrates the error handling capabilities of the GUI:
+
+https://user-images.githubusercontent.com/32313952/144725534-5bd1e8df-3905-4350-b507-cc93a05bee9b.mp4
+
 
 ### Type Error
 
