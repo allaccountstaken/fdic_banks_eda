@@ -53,6 +53,7 @@ The GUI is not able to be run in a jupyter notebook. The dependencies of the GUI
 -matplotlib
 -pandas
 
-![]https://www.tutorialspoint.com/how-to-install-tkinter-in-python
+Tutorial to install Tkinter: ![](https://www.tutorialspoint.com/how-to-install-tkinter-in-python)
 To install Tkinter using pip, use the command 
+
 ```pip install tk```
