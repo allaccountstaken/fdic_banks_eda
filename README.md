@@ -49,9 +49,9 @@ The final product will provide a unique big picture view of the banking industry
 
 ### Running the GUI
 The GUI is not able to be run in a jupyter notebook. The dependencies of the GUI are
--tkinter
--matplotlib
--pandas
+* tkinter
+* matplotlib
+* pandas
 
 Tutorial to install Tkinter: ![](https://www.tutorialspoint.com/how-to-install-tkinter-in-python)
 To install Tkinter using pip, use the command 
