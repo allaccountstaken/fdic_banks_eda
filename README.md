@@ -1,5 +1,5 @@
 
-# fdic_banks_eda
+# Exploratory data analysis (EDA) of regulated banks
 
 # Project Proposal
 
